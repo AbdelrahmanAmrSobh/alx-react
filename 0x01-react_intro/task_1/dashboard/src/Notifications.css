@@ -1,8 +1,5 @@
-:root {
-	--primar-color: #E11D3F;
-}
-
 .Notifications {
-	border: 1px solid var(--primar-color);
-	padding: 1rem;
+	padding: 2em;
+	border: 2px solid red;
+	font-family: Arial, Helvetica, sans-serif;
 }

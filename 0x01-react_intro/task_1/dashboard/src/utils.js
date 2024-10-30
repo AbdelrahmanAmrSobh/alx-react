@@ -1,11 +1,4 @@
-function getFullYear() {
-	  return new Date().getFullYear();
-}
+export const getFullYear = () => new Date().getFullYear();
 
-function getFooterCopy(isIndex) {
-	if (!isIndex) return "Holberton School main dashboard";
-	return "Holberton School";
-}
-
-// export
-export { getFullYear, getFooterCopy };
+export const getFooterCopy = (isIndex) =>
+	isIndex ? 'Holberton School' : 'Holberton School main dashboard';
