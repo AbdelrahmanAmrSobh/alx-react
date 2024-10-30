@@ -1,51 +1,40 @@
 :root {
-	--hred: #e1484c;
-  }
+	--primary-color: #E11D3F;
+	font: 18px Helvetica, Arial, sans-serif;
+}
 
-  body {
-	max-width: 90%;
-	margin: 0 auto;
-  }
+.App {
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
 
-  div {
-	padding: 2px 8px;
-  }
-
-  .App {
-	position: relative;
-	min-height: 100vh;
-  }
-
-  .App-header {
+.App-header {
 	display: flex;
 	flex-direction: row;
-	justify-content: left;
-	border-bottom: 3px solid var(--hred);
-  }
-  .App-footer p {
-	text-align: center;
-	border-top: 3px solid var(--hred);
-	padding: 17px 0;
-  }
-  .App-footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-  }
+	align-items: center;
+	color: var(--primary-color);
+	border-bottom: 3px solid var(--primary-color);
+}
 
-.App-header h1 {
-	margin: auto auto auto 0;
-	font-weight: bold;
-	color: var(--hred);
-  }
+.App-logo {
+	height: 200px;
+	width: 200px;
+}
 
-  .App-body p {
-	font-weight: bold;
-	margin: 47px 0 0 31px;
-  }
-  .App-header {
+.App-body {
+	display: flex;
+	flex-direction: column;
+	margin: 3rem;
+	min-height: 50vh;
+}
+
+.App-footer {
 	display: flex;
 	flex-direction: row;
-	justify-content: left;
-	border-bottom: 3px solid var(--hred);
-  }
+	justify-content: center;
+	align-items: center;
+	border-top: 3px solid var(--primary-color);
+	padding: 1rem;
+	font-style: italic;
+}
